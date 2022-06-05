@@ -7,8 +7,6 @@
     <title>Document</title>
     <style>
         #navbar{
-            
-            
             display: flex;
             justify-content: center;
             align-items: center;
@@ -26,8 +24,14 @@
             padding: 20px 10px;
             
         }
-        #navbar>div:last-child>div{
-            margin-right: 80px;
+        #navbar>div:nth-child(2) {
+            display: flex;
+            justify-content: space-evenly;
+            width: 40%;
+        }
+        a {
+            text-decoration: none;
+            color: white;
         }
     </style>
 </head>
@@ -35,10 +39,10 @@
     <div id="navbar">
         <div>Reebok</div>
         <div>
-        <div>Men</div>
-        <div>Women</div>
-        <div>Login</div>
-        <div>Signup</div>
+        <a href="mens.html"><div>Men</div></a>
+        <a href="mens.html"><div>Women</div></a>
+        <a href="login.html"><div>Login</div></a>
+        <a href="signup.html"><div>Signup</div></a>
         </div>
         
     </div>
